@@ -45,8 +45,8 @@ export default (sequelize, DataTypes) => {
 		// associations can be defined here
 		Book.belongsTo(models.User, {
 			foreignKey: 'userId',
-			onDelete: 'CASCADE'
-		})
+			onDelete: 'CASCADE',
+		});
 	};
 	return Book;
 };
