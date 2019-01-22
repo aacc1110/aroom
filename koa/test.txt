@@ -1,0 +1,7 @@
+
+interface PostAttributes {} // 단일 데이터베이스 행의 필드
+
+interface PostInstance {} // 단일 데이터베이스 행
+
+interface PostModel {} // 데이터베이스의 테이블
+

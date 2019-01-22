@@ -1,0 +1,26 @@
+{
+	"development": {
+		"username": "postgreHSC",
+		"password": "ghkdtkd112",
+		"database": "aroom-test",
+		"host": "127.0.0.1",
+		"port": 5432,
+		"dialect": "postgres"
+	},
+	"test": {
+		"username": "postgreHSC",
+		"password": "ghkdtkd112",
+		"database": "aroom-test",
+		"host": "127.0.0.1",
+		"port": 5432,
+		"dialect": "postgres"
+	},
+	"production": {
+		"username": "postgres",
+		"password": "ghkdtkd112!Q",
+		"database": "aroom",
+		"host": "127.0.0.1",
+		"port": 5432,
+		"dialect": "postgres"
+	}
+}
