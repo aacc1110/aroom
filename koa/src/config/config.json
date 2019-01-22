@@ -1,7 +1,7 @@
 {
 	"development": {
 		"username": "postgreHSC",
-		"password": "ghkdtkd112",
+		"password": null,
 		"database": "aroom-test",
 		"host": "127.0.0.1",
 		"port": 5432,

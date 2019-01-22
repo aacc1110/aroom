@@ -13,7 +13,7 @@ const port = process.env.PORT || 4001; // PORT 값이 설정되어있지 않다�
 app.use(bodyParser()); // 바디파서 적용, 라우터 적용코드보다 상단에 있어야합니다.
 app.use(helmet());
 
-const models = require('./models/index');
+/* const models = require('./models/index');
 models.sequelize
 	.sync()
 	.then(() => {
@@ -21,7 +21,7 @@ models.sequelize
 	})
 	.catch(err => {
 		console.err(err);
-	});
+	}); */
 
 app.use(async (ctx, next) => {
 	ctx.set('Access-Control-Allow-Origin', '*');
